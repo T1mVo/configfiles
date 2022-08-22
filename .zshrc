@@ -74,6 +74,7 @@ plugins=(
 	git
 	macos
 	zsh-autosuggestions
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,3 +104,4 @@ source $ZSH/oh-my-zsh.sh
 alias py="python3"
 
 eval "$(starship init zsh)"
+
